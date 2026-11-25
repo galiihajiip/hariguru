@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.35  0 0 0 0 0.27  0 0 0 0 0.18  0 0 0 0.08 0"/></filter>
+    <radialGradient id="glow" cx="72%" cy="45%" r="55%"><stop offset="0" stop-color="#fff4dc" stop-opacity=".9"/><stop offset="1" stop-color="#f5f0e7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="wax" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#a65a68"/><stop offset=".45" stop-color="#7d3a48"/><stop offset="1" stop-color="#4f1e2a"/></radialGradient>
+    <linearGradient id="flap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe4d1"/><stop offset="1" stop-color="#e3d2b7"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#5a3e2b" flood-opacity=".35"/></filter>
+    <path id="ring" d="M860 352m-45 0a45 45 0 1 1 90 0a45 45 0 1 1 -90 0"/>
+  </defs>
+  <rect width="1200" height="630" fill="#f5f0e7"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" filter="url(#noise)"/>
+  <rect x="22" y="22" width="1156" height="586" fill="none" stroke="#8a7663" stroke-opacity=".3"/>
+  <rect x="29" y="29" width="1142" height="572" fill="none" stroke="#8a7663" stroke-opacity=".15"/>
+
+  <!-- left: text -->
+  <g font-family="DM Sans, sans-serif" font-weight="600" letter-spacing="4.5" font-size="15" fill="#783c48">
+    <text x="84" y="128">25 NOVEMBER 2026 · HARI GURU NASIONAL</text>
+  </g>
+  <g font-family="Instrument Serif, Georgia, serif" fill="#26231f">
+    <text x="80" y="250" font-size="104">Surat yang</text>
+    <text x="80" y="352" font-size="104" font-style="italic" fill="#783c48">Tertinggal</text>
+  </g>
+  <g font-family="DM Sans, sans-serif" font-size="25" fill="#4a433b">
+    <text x="84" y="430">Sebuah surat kecil dari seorang alumni</text>
+    <text x="84" y="466">untuk guru-guru tercinta.</text>
+  </g>
+  <text x="84" y="540" font-family="Caveat, cursive" font-size="34" fill="#8a7663">dari Galih, KASMAJI 2023</text>
+
+  <!-- pressed flower -->
+  <g transform="translate(1020 400) rotate(28) scale(1.5)" opacity=".95">
+    <path d="M61 228C57 196 68 168 60 136C53 108 57 86 60 66" stroke="#6c7258" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M60 170C44 163 30 168 17 153C33 146 50 150 60 170Z" fill="#92977b" opacity=".8"/>
+    <path d="M59 128C76 118 92 124 103 108C86 101 70 108 59 128Z" fill="#92977b" opacity=".72"/>
+    <g fill="#c99595" opacity=".85">
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(45 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(90 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(135 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(180 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(225 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(270 60 56)"/>
+      <path d="M60 56C54 46 53 28 60 20C67 28 66 46 60 56Z" transform="rotate(315 60 56)"/>
+    </g>
+    <circle cx="60" cy="56" r="8.5" fill="#c6a66b"/>
+  </g>
+
+  <!-- envelope -->
+  <g transform="rotate(-5 860 330)" filter="url(#shadow)">
+    <rect x="640" y="190" width="440" height="282" rx="8" fill="#dccab0"/>
+    <path d="M640 196 L850 352 Q860 360 870 352 L1080 196 L1080 466 Q1080 472 1074 472 L646 472 Q640 472 640 466Z" fill="#ebdec8"/>
+    <path d="M640 466 L842 330 Q860 318 878 330 L1080 466 Q1080 472 1074 472 L646 472 Q640 472 640 466Z" fill="#f3e9d8"/>
+    <path d="M646 190 L1074 190 Q1082 190 1076 196 L872 360 Q860 370 848 360 L644 196 Q638 190 646 190Z" fill="url(#flap)"/>
+    <text x="860" y="446" text-anchor="middle" font-family="Caveat, cursive" font-size="32" fill="#26231f">untuk Bapak/Ibu Guru</text>
+    <text x="860" y="464" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#8a7663">SMA NEGERI 1 SURAKARTA</text>
+    <circle cx="860" cy="352" r="58" fill="url(#wax)"/>
+    <circle cx="860" cy="352" r="48" fill="#6a2c3a" stroke="#c98a95" stroke-opacity=".4"/>
+    <text fill="#f1d2d6" fill-opacity=".85" font-family="DM Sans, sans-serif" font-size="9.5" font-weight="600"><textPath href="#ring" textLength="282" lengthAdjust="spacing">TERIMA KASIH · TERIMA KASIH ·</textPath></text>
+    <g transform="translate(860 352)" fill="#5a2431" stroke="#e7b9c0" stroke-opacity=".5">
+      <path d="M0 0C-7 -7 -7 -18 0 -23C7 -18 7 -7 0 0Z"/>
+      <path d="M0 0C-7 -7 -7 -18 0 -23C7 -18 7 -7 0 0Z" transform="rotate(72)"/>
+      <path d="M0 0C-7 -7 -7 -18 0 -23C7 -18 7 -7 0 0Z" transform="rotate(144)"/>
+      <path d="M0 0C-7 -7 -7 -18 0 -23C7 -18 7 -7 0 0Z" transform="rotate(216)"/>
+      <path d="M0 0C-7 -7 -7 -18 0 -23C7 -18 7 -7 0 0Z" transform="rotate(288)"/>
+    </g>
+    <!-- stamp -->
+    <g transform="translate(990 150) rotate(8)">
+      <rect width="92" height="114" fill="#faf6ec" stroke="#e2d6c2"/>
+      <rect x="8" y="8" width="76" height="98" fill="#e9d8c4" stroke="#783c48" stroke-width=".8"/>
+      <path d="M30 8L56 76H68L42 8Z" fill="#fff6e2" opacity=".6"/>
+      <circle cx="46" cy="40" r="5" fill="#c6a66b"/>
+      <g fill="#c99595"><ellipse cx="46" cy="30" rx="4" ry="8"/><ellipse cx="46" cy="50" rx="4" ry="8"/><ellipse cx="36" cy="40" rx="8" ry="4"/><ellipse cx="56" cy="40" rx="8" ry="4"/></g>
+      <text x="46" y="92" text-anchor="middle" font-family="Instrument Serif, serif" font-size="13" fill="#783c48">Hari Guru</text>
+    </g>
+  </g>
+  <g fill="#c6a66b">
+    <path transform="translate(600 120)" d="M12 0.5C12.9 7.6 16.4 11.1 23.5 12C16.4 12.9 12.9 16.4 12 23.5C11.1 16.4 7.6 12.9 0.5 12C7.6 11.1 11.1 7.6 12 0.5Z"/>
+    <path transform="translate(1110 110) scale(.6)" d="M12 0.5C12.9 7.6 16.4 11.1 23.5 12C16.4 12.9 12.9 16.4 12 23.5C11.1 16.4 7.6 12.9 0.5 12C7.6 11.1 11.1 7.6 12 0.5Z"/>
+    <path transform="translate(620 520) scale(.7)" d="M12 0.5C12.9 7.6 16.4 11.1 23.5 12C16.4 12.9 12.9 16.4 12 23.5C11.1 16.4 7.6 12.9 0.5 12C7.6 11.1 11.1 7.6 12 0.5Z"/>
+  </g>
+</svg>
