@@ -16,7 +16,7 @@ export const sender = {
   fullName: 'Galih Aji Pangestu',
   nickname: 'Galih',
   credentials: [
-    'Alumni SMA Negeri 1 Surakarta Angkatan 2023',
+    'Alumni SMA Negeri 1 Surakarta Angkatan 2023 · XII IPS 2',
     'Mahasiswa Informatika, UPN “Veteran” Jawa Timur',
     'Semester 5 · Surabaya',
     'Information System Intern · Telkomsel',
@@ -42,7 +42,7 @@ export const hero = {
   sub: 'Ada sebuah surat yang mungkin sudah terlambat untuk disampaikan, tetapi tidak pernah terlambat untuk dituliskan.',
   cta: 'Buka Surat dari Galih',
   margin: 'ditulis dari Surabaya, untuk Surakarta',
-  envelopeFrom: 'Dari: Galih, KASMAJI 2023',
+  envelopeFrom: 'Dari: Galih · XII IPS 2, KASMAJI 2023',
   sealText: 'Terima Kasih',
 }
 
@@ -53,7 +53,7 @@ export const letter = {
   paragraphs: [
     'Apa kabar, {sapa}?',
     'Semoga selalu sehat, bahagia, dan senantiasa diberikan kekuatan dalam menjalani setiap hari.',
-    'Perkenalkan, saya Galih Aji Pangestu, biasa dipanggil Galih. Saya merupakan alumni SMA Negeri 1 Surakarta angkatan 2023, bagian dari keluarga besar KASMAJI.',
+    'Perkenalkan, saya Galih Aji Pangestu, biasa dipanggil Galih. Saya merupakan alumni SMA Negeri 1 Surakarta angkatan 2023 dari kelas XII IPS 2, bagian dari keluarga besar KASMAJI.',
     'Hari ini, tepat pada peringatan Hari Guru Nasional, saya ingin menyampaikan sesuatu yang mungkin dahulu jarang sekali saya ucapkan ketika masih mengenakan *seragam putih abu-abu.*',
     'Rasanya baru kemarin saya masih duduk di bangku kelas, mengerjakan tugas, bercanda dengan teman, mendengarkan penjelasan di depan kelas, atau sesekali justru sibuk dengan dunia sendiri ketika {s} sedang mengajar.',
     'Waktu itu, mungkin saya menganggap semua itu sebagai rutinitas biasa. Berangkat sekolah, bertemu teman, mengikuti pelajaran, menghadapi ujian, lalu pulang ke rumah.',
@@ -124,7 +124,7 @@ export const remains = {
   eyebrow: 'Bab IV — Yang Tertinggal Setelah Kelulusan',
   title: 'Dari Ruang Kelas Itu, Kini Saya Sedang Menempuh *Perjalanan yang Berbeda.*',
   journey: [
-    { place: 'SMA Negeri 1 Surakarta', detail: 'Lulus · Angkatan 2023', city: 'Surakarta' },
+    { place: 'SMA Negeri 1 Surakarta', detail: 'XII IPS 2 · Angkatan 2023', city: 'Surakarta' },
     { place: 'Informatika, UPN “Veteran” Jawa Timur', detail: 'Mahasiswa · Semester 5', city: 'Surabaya' },
     { place: 'Information System Intern', detail: 'Magang · Telkomsel', city: 'Surabaya' },
   ],
@@ -178,7 +178,7 @@ export const footer = {
     'Surat ini ditulis dengan penuh rasa terima kasih, untuk mereka yang pernah mengajarkan banyak hal, bahkan jauh melampaui apa yang tertulis di papan tulis.',
   madeBy: 'Made with gratitude by',
   name: 'Galih Aji Pangestu (Galih)',
-  community: 'KASMAJI 2023 · SMA Negeri 1 Surakarta',
+  community: 'XII IPS 2 · KASMAJI 2023 · SMA Negeri 1 Surakarta',
   date: '25 November 2026',
   motto: 'Once a student, always a part of the memories.',
 }
